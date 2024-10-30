@@ -1,0 +1,17 @@
+/* Add any custom styles here */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Improve mobile experience */
+@media (max-width: 768px) {
+    input, button {
+        font-size: 16px; /* Prevents iOS zoom on input */
+    }
+}
+
+/* Smooth transitions */
+.transition-all {
+    transition: all 0.3s ease;
+}
